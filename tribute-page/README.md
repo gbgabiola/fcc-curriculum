@@ -14,7 +14,7 @@ Fulfill the below [user stories](https://en.wikipedia.org/wiki/User_story) and g
 - HTML5
 - CSS3
 - [CodePen]()
-![Tribute Page Screenshot](img\tribute-page-screenshot.png "Tribute Page Screenshot")
+![Tribute Page Screenshot](img/tribute-page-screenshot.png "Tribute Page Screenshot")
 
 Visit the [live preview](https://genesisgabiola.github.io/freeCodeCamp-projects/tribute-page) here.
 
