@@ -3,7 +3,7 @@
 ## [Responsive Web Design Certification Projects](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects)
 
 - [x] [Build a Tribute Page](tribute-page/README.md)
-- [ ] [Build a Survey Form](survey-form/README.md)
+- [x] [Build a Survey Form](survey-form/README.md)
 - [ ] [Build a Product Landing Page](product-landing-page/README.md)
 - [ ] [Build a Technical Documentation Page](technical-documentation-page/README.md)
 - [ ] [Build a Personal Portfolio Webpage](personal-portfolio-webpage/README.md)
