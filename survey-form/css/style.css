@@ -19,7 +19,6 @@ body {
 }
 
 form {
-    /* max-width: 450px; */
     max-width: 500px;
     padding: 1em;
     background-color: white;
@@ -34,7 +33,6 @@ fieldset {
 
 input,
 select {
-    /* padding: 0.5rem; */
     padding: 0.3rem;
     border-radius: 4px;
     border: 1px solid #ddd;
@@ -61,8 +59,8 @@ input[type="radio"] {
 }
 
 label {
-    display: inline-block;
     /* display: block; */
+    display: inline-block;
     padding: 10px 5px;
     text-align: left;
     font-size: 12px;
@@ -140,19 +138,8 @@ a:after {
         font-size: 12px;
     }
 
-    body {
-        overflow: scroll;
-        min-width: 200px
-    }
-
-    .container {
-        overflow-y: visible;
-    }
-}
-
 @media (max-width: 400px) {
     form {
-        /* max-width: 450px; */
         max-width: 400px;
         padding: .5em;
     }
@@ -164,9 +151,5 @@ a:after {
 
     #description {
         font-size: 12px;
-    }
-
-    body {
-        min-width: 100px
     }
 }
