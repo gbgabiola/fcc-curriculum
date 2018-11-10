@@ -1,0 +1,286 @@
+/* COLOR orange: #c09470 */
+/* COLOR blue green: ##56a79a */
+
+body {
+    font-family: 'Open-sans', sans-serif;
+    font-size: 17px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+/* img:not(#header-img) {
+    width: 100%;
+} */
+
+img {
+    max-width: 100%;
+} 
+
+.container {
+    margin: auto;
+}
+
+/* COMMON CLASSES */
+.primary-text {
+    color: #c55f0c;
+}
+
+.primary-background {
+    color: #c55f0c;
+}
+
+/* HEADER */
+#header {
+    border-bottom: 1px solid #c55f0c;
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* #header #header-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+} */
+
+/* NAVBAR */
+#nav-bar {
+    text-transform: uppercase;
+}
+
+#nav-bar li {
+    display: inline;
+    padding-right: 20px;
+    list-style: none;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: #888;
+}
+
+#nav-bar li.current a, #nav-bar a:hover {
+    color: #c55f0c;
+    border-bottom: 3px solid #c55f0c;
+    padding-bottom: 3px;
+}
+
+/* SHOWCASE */
+#showcase {
+    background: url('../img/showcase.jpeg') no-repeat center center;
+    border-bottom: 1px solid #c55f0c;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+#showcase .row {
+    height: 600px;
+}
+
+#showcase h1 {
+    font-size: 50px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+#showcase p {
+    color: #ccc;
+    margin: 0;
+}
+
+#showcase .showcase-content {
+    background: #333;
+    color: #fff;
+    border-radius: 90px;
+    padding: 40px;
+    opacity: 0.9;
+}
+
+/* FEATURES */
+#features h2 {
+    font-size: 35px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+#features p {
+    color: #888;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+#features .fa {
+    font-size: 60px;
+    color: #c55f0c;
+}
+
+/* INFO */
+#info {
+    background: #333 url('../img/info-bg.jpg') no-repeat;
+    color: #fff;
+}
+
+#info h2 {
+    font-size: 35px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+#info ul {
+    list-style: none;
+    padding: 0;
+}
+
+#info li {
+    line-height: 2em;
+    font-size: 20px;
+}
+
+/* VIDEO */
+#video-section {
+    background: #333 url('../img/video-bg-overlay.png') no-repeat;
+    color: #fff;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* COMPANY */
+#company {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+#company h4 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+#company ul {
+    padding: 0;
+    list-style: none;
+    line-height: 2em;
+}
+
+#company input[type="email"] {
+    padding: 7px;
+}
+
+#company input[type="submit"] {
+    background: #222;
+    color: #fff;
+    padding: 10px;
+    border: 0;
+}
+
+/* FOOTER */
+#footer {
+    background: #c55f0c;
+    color: #fff;
+}
+
+
+/* LINK SECTION */
+.section {
+    margin-bottom: 40px;
+}
+
+#subheader {
+    background: #333;
+    color: #fff;
+}
+
+/* SERVICES */
+.services ul {
+    padding-inline-start: 0;
+}
+
+.services ul li {
+    list-style: none;
+    padding: 10px;
+    /* padding-inline-start: 0; */
+}
+
+.services ul li:nth-child(odd) {
+    background: #333;
+    color: #fff;
+}
+
+.services ul li:nth-child(even) {
+    background: #c55f0c;
+    color: #fff;
+}
+
+/* CONTACT */
+.contact form {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.contact form input[type="text"] {
+    width: 50%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.contact form input[type="email"] {
+    width: 50%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.contact form textarea {
+    width: 50%;
+    height: 100px;
+}
+
+.contact form input[type="submit"] {
+    width: 50%;
+    padding: 10px 0;
+    border: 0;
+    background: #222;
+    color: #fff;
+}
+
+.contact form label {
+    text-transform: uppercase;
+}
+
+
+/* MEDIA QUERIES */
+@media(max-width: 800px) {
+    #showcase h1 {
+        font-size: 30px;
+    }
+    
+    /* #header #header-img {
+        max-width: 100%;
+        height: auto;
+    } */
+}
+
+@media(max-width: 500px) {
+    #showcase .showcase-content {
+        padding: 40px 10px;
+    }
+}
