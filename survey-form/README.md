@@ -1,4 +1,4 @@
-# [Tribute Page](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-tribute-page)
+# [Survey Form](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-survey-form)
 
 A Survey Form page as a freeCodeCamp's Responsive Web Design Track Project, where I show most of the elements needed to make a form.
 
