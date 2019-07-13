@@ -1,12 +1,13 @@
-# List of all the Projects I've Completed in [freeCodeCamp](https://www.freecodecamp.org/)
+# List of all the Lessons and Projects I've Completed in [freeCodeCamp](https://www.freecodecamp.org/)
+
+You can earn each certification by completing its 5 final projects.
 
 ## [Responsive Web Design Certification Projects](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects)
-
-- [x] [Build a Tribute Page](tribute-page)
-- [x] [Build a Survey Form](survey-form)
-- [x] [Build a Product Landing Page](product-landing-page)
-- [ ] [Build a Technical Documentation Page](technical-documentation-page)
-- [ ] [Build a Personal Portfolio Webpage](personal-portfolio-webpage)
+- [ ] [Build a Tribute Page]()
+- [ ] [Build a Survey Form]()
+- [ ] [Build a Product Landing Page]()
+- [ ] [Build a Technical Documentation Page]()
+- [ ] [Build a Personal Portfolio Webpage]()
 
 
 ## [JavaScript Algorithms and Data Structures Certification Projects](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects)
