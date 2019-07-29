@@ -6,7 +6,7 @@
 - [x] [Applied Accessibility](04-applied-accessibility)
 - [x] [Responsive Web Design Principles](05-responsive-web-design-principles)
 - [x] [CSS Flexbox](06-css-flexbox)
-- [ ] [CSS Grid](07-css-grid)
+- [x] [CSS Grid](07-css-grid)
 - [ ] [Responsive Web Design Projects](08-responsive-web-design)
 
 ---
