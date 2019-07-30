@@ -3,7 +3,7 @@
 You can earn each certification by completing its 5 final projects.
 
 ## [Responsive Web Design Certification Projects](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects)
-- [ ] [Build a Tribute Page]()
+- [x] [Build a Tribute Page](https://genesisgabiola.github.io/tribute-page/)
 - [ ] [Build a Survey Form]()
 - [ ] [Build a Product Landing Page]()
 - [ ] [Build a Technical Documentation Page]()
