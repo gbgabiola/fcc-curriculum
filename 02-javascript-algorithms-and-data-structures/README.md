@@ -1,6 +1,6 @@
 # Javascript Algorithms And Data Structures Certification (300 hours)
 
-- [ ] [Basic JavaScript](01-basic-javascript)
+- [x] [Basic JavaScript](01-basic-javascript)
 - [ ] [ES6](02-es6)
 - [ ] [Regular Expressions](03-regular-expression)
 - [ ] [Debugging](04-debugging)

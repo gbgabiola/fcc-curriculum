@@ -102,13 +102,13 @@ JavaScript is a high-level programming language that all modern web browsers sup
 - [x] [Nesting For Loops](098-nesting-for-loops.js)
 - [x] [Iterate with JavaScript Do...While Loops](099-iterate-with-javascript-do---while-loops.js)
 - [x] [Profile Lookup](100-profile-lookup.js)
-- [ ] [Generate Random Fractions with JavaScript](101-generate-random-fractions-with-javascript.js)
-- [ ] [Generate Random Whole Numbers with JavaScript](102-generate-random-whole-numbers-with-javascript.js)
-- [ ] [Generate Random Whole Numbers within a Range](103-generate-random-whole-numbers-within-a-range.js)
-- [ ] [Use the parseInt Function](104-use-the-parseint-function.js)
-- [ ] [Use the parseInt Function with a Radix](105-use-the-parseint-function-with-a-radix.js)
-- [ ] [Use the Conditional (Ternary) Operator](106-use-the-conditional-ternary-operator.js)
-- [ ] [Use Multiple Conditional (Ternary) Operators](107-use-multiple-conditional-ternary-operators.js)
+- [x] [Generate Random Fractions with JavaScript](101-generate-random-fractions-with-javascript.js)
+- [x] [Generate Random Whole Numbers with JavaScript](102-generate-random-whole-numbers-with-javascript.js)
+- [x] [Generate Random Whole Numbers within a Range](103-generate-random-whole-numbers-within-a-range.js)
+- [x] [Use the parseInt Function](104-use-the-parseint-function.js)
+- [x] [Use the parseInt Function with a Radix](105-use-the-parseint-function-with-a-radix.js)
+- [x] [Use the Conditional (Ternary) Operator](106-use-the-conditional-ternary-operator.js)
+- [x] [Use Multiple Conditional (Ternary) Operators](107-use-multiple-conditional-ternary-operators.js)
 
 ---
 
