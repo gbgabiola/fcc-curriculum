@@ -37,11 +37,11 @@ Not all browsers support ES6 features. If you use ES6 in your own projects, you 
 - [x] [Write Concise Declarative Functions with ES6](19-write-concise-declarative-functions-with-es6.js)
 - [x] [Use class Syntax to Define a Constructor Function](20-use-class-syntax-to-define-a-constructor-function.js)
 - [x] [Use getters and setters to Control Access to an Object](21-use-getters-and-setters-to-control-access-to-an-object.js)
-- [ ] [Understand the Differences Between import and require](22-understand-the-differences-between-import-and-require.js)
-- [ ] [Use export to Reuse a Code Block](23-use-export-to-reuse-a-code-block.js)
-- [ ] [Use * to Import Everything from a File](24-use--to-import-everything-from-a-file.js)
-- [ ] [Create an Export Fallback with export default](25-create-an-export-fallback-with-export-default.js)
-- [ ] [Import a Default Export](26-import-a-default-export.js)
+- [x] [Understand the Differences Between import and require](22-understand-the-differences-between-import-and-require.js)
+- [x] [Use export to Reuse a Code Block](23-use-export-to-reuse-a-code-block.js)
+- [x] [Use * to Import Everything from a File](24-use--to-import-everything-from-a-file.js)
+- [x] [Create an Export Fallback with export default](25-create-an-export-fallback-with-export-default.js)
+- [x] [Import a Default Export](26-import-a-default-export.js)
 
 ---
 
