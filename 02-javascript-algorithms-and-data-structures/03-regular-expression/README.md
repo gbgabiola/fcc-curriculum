@@ -28,12 +28,12 @@ Regular expressions are special strings that represent a search pattern. Also kn
 - [x] [Match Non-Whitespace Characters](24-match-non-whitespace-characters.js)
 - [x] [Specify Upper and Lower Number of Matches](25-specify-upper-and-lower-number-of-matches.js)
 - [x] [Specify Only the Lower Number of Matches](26-specify-only-the-lower-number-of-matches.js)
-- [ ] [Specify Exact Number of Matches](27-specify-exact-number-of-matches.js)
-- [ ] [Check for All or None](28-check-for-all-or-none.js)
-- [ ] [Positive and Negative Lookahead](29-positive-and-negative-lookahead.js)
-- [ ] [Reuse Patterns Using Capture Groups](30-reuse-patterns-using-capture-groups.js)
-- [ ] [Use Capture Groups to Search and Replace](31-use-capture-groups-to-search-and-replace.js)
-- [ ] [Remove Whitespace from Start and End](32-remove-whitespace-from-start-and-end.js)
+- [x] [Specify Exact Number of Matches](27-specify-exact-number-of-matches.js)
+- [x] [Check for All or None](28-check-for-all-or-none.js)
+- [x] [Positive and Negative Lookahead](29-positive-and-negative-lookahead.js)
+- [x] [Reuse Patterns Using Capture Groups](30-reuse-patterns-using-capture-groups.js)
+- [x] [Use Capture Groups to Search and Replace](31-use-capture-groups-to-search-and-replace.js)
+- [x] [Remove Whitespace from Start and End](32-remove-whitespace-from-start-and-end.js)
 
 ---
 
