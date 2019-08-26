@@ -17,11 +17,11 @@ Data can be stored and accessed in many different ways, both in Javascript and o
 - [x] [Add Key-Value Pairs to JavaScript Objects](13-add-key-value-pairs-to-javascript-objects.js)
 - [x] [Modify an Object Nested Within an Object](14-modify-an-object-nested-within-an-object.js)
 - [x] [Access Property Names with Bracket Notation](15-access-property-names-with-bracket-notation.js)
-- [ ] [Use the delete Keyword to Remove Object Properties](16-use-the-delete-keyword-to-remove-object-properties.js)
-- [ ] [Check if an Object has a Property](17-check-if-an-object-has-a-property.js)
-- [ ] [Iterate Through the Keys of an Object with a for...in Statement](18--iterate-through-the-keys-of-an-object-with-a-for---in-statement.js)
-- [ ] [Generate an Array of All Object Keys with Object.keys()](19-generate-an-array-of-all-object-keys-with-object-keys.js)
-- [ ] [Modify an Array Stored in an Object](20-modify-an-array-stored-in-an-object.js)
+- [x] [Use the delete Keyword to Remove Object Properties](16-use-the-delete-keyword-to-remove-object-properties.js)
+- [x] [Check if an Object has a Property](17-check-if-an-object-has-a-property.js)
+- [x] [Iterate Through the Keys of an Object with a for...in Statement](18-iterate-through-the-keys-of-an-object-with-a-for---in-statement.js)
+- [x] [Generate an Array of All Object Keys with Object.keys()](19-generate-an-array-of-all-object-keys-with-object-keys.js)
+- [x] [Modify an Array Stored in an Object](20-modify-an-array-stored-in-an-object.js)
 
 ---
 
