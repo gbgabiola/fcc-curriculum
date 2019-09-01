@@ -21,8 +21,8 @@ If you get stuck, try using `console.log()` to log variable values to the consol
 - [x] [Boo who](10-boo-who.js)
 - [x] [Title Case a Sentence](11-title-case-a-sentence.js)
 - [x] [Slice and Splice](12-slice-and-splice.js)
-- [ ] [Falsy Bouncer](13-falsy-bouncer.js)
-- [ ] [Where do I Belong](14-where-do-i-belong.js)
+- [x] [Falsy Bouncer](13-falsy-bouncer.js)
+- [x] [Where do I Belong](14-where-do-i-belong.js)
 - [ ] [Mutations](15-mutations.js)
 - [ ] [Chunky Monkey](16-chunky-monkey.js)
 
