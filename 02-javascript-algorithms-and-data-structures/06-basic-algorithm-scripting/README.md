@@ -23,8 +23,8 @@ If you get stuck, try using `console.log()` to log variable values to the consol
 - [x] [Slice and Splice](12-slice-and-splice.js)
 - [x] [Falsy Bouncer](13-falsy-bouncer.js)
 - [x] [Where do I Belong](14-where-do-i-belong.js)
-- [ ] [Mutations](15-mutations.js)
-- [ ] [Chunky Monkey](16-chunky-monkey.js)
+- [x] [Mutations](15-mutations.js)
+- [x] [Chunky Monkey](16-chunky-monkey.js)
 
 ---
 
