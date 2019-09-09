@@ -6,7 +6,7 @@
 - [x] [Debugging](04-debugging#debugging)
 - [x] [Basic Data Structures](05-basic-data-structures#basic-data-structures)
 - [x] [Basic Algorithm Scripting](06-basic-algorithm-scripting#basic-algorithm-scripting)
-- [ ] [Object Oriented Programming](07-object-oriented-programming#object-oriented-programming)
+- [x] [Object Oriented Programming](07-object-oriented-programming#object-oriented-programming)
 - [ ] [Functional Programming](08-functional-programming#functional-programming)
 - [ ] [Intermediate Algorithm Scripting](09-intermediate-algorithm-scripting#intermediate-algorithm-scripting)
 - [ ] [JavaScript Algorithms and Data Structures Projects](10-javascript-algorithms-and-data-structures-projects)
