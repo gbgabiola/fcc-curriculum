@@ -1,4 +1,4 @@
-/* 
+/*
   Challenge: In the code editor, the prepareTeaand getTeafunctions are already defined for you.
   Call the getTeafunction to get 40 cups of tea for the team, and store them in the tea4TeamFCCvariable.
 */
@@ -14,10 +14,10 @@ const prepareTea = () => 'greenTea';
  * @param {number} numOfCups Number of required cups of tea.
  * @return {Array<string>} Given amount of tea cups.
  **/
-const getTea = (numOfCups) => {
+const getTea = numOfCups => {
   const teaCups = [];
-  
-  for(let cups = 1; cups <= numOfCups; cups += 1) {
+
+  for (let cups = 1; cups <= numOfCups; cups += 1) {
     const teaCup = prepareTea();
     teaCups.push(teaCup);
   }

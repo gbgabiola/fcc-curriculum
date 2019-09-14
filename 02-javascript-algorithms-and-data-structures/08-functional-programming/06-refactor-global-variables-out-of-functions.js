@@ -7,10 +7,10 @@
 
 // the global variable
 var bookList = [
-  "The Hound of the Baskervilles",
-  "On The Electrodynamics of Moving Bodies",
-  "Philosophiæ Naturalis Principia Mathematica",
-  "Disquisitiones Arithmeticae"
+  'The Hound of the Baskervilles',
+  'On The Electrodynamics of Moving Bodies',
+  'Philosophiæ Naturalis Principia Mathematica',
+  'Disquisitiones Arithmeticae'
 ];
 
 /* This function adds a book to the list and return the list */
@@ -35,11 +35,11 @@ function remove(arr, bookName) {
   }
 }
 
-var newBookList = add(bookList, "A Brief History of Time");
-var newerBookList = remove(bookList, "On The Electrodynamics of Moving Bodies");
+var newBookList = add(bookList, 'A Brief History of Time');
+var newerBookList = remove(bookList, 'On The Electrodynamics of Moving Bodies');
 var newestBookList = remove(
-  add(bookList, "A Brief History of Time"),
-  "On The Electrodynamics of Moving Bodies"
+  add(bookList, 'A Brief History of Time'),
+  'On The Electrodynamics of Moving Bodies'
 );
 
 console.log(bookList); // (4) ["The Hound of the Baskervilles", "On The Electrodynamics of Moving Bodies", "Philosophiæ Naturalis Principia Mathematica", "Disquisitiones Arithmeticae"]

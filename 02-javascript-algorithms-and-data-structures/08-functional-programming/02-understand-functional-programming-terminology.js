@@ -1,7 +1,7 @@
-/* 
+/*
   Challenge: Prepare 27 cups of green tea and 13 cups of black tea and store them in tea4GreenTeamFCCand tea4BlackTeamFCCvariables, respectively.
   Note that the getTeafunction has been modified so it now takes a function as the first argument.
-  
+
   Note: The data (the number of cups of tea) is supplied as the last argument.
 */
 
@@ -26,7 +26,7 @@ const prepareBlackTea = () => 'blackTea';
 const getTea = (prepareTea, numOfCups) => {
   const teaCups = [];
 
-  for(let cups = 1; cups <= numOfCups; cups += 1) {
+  for (let cups = 1; cups <= numOfCups; cups += 1) {
     const teaCup = prepareTea();
     teaCups.push(teaCup);
   }
@@ -37,10 +37,7 @@ const getTea = (prepareTea, numOfCups) => {
 const tea4GreenTeamFCC = getTea(prepareGreenTea, 27);
 const tea4BlackTeamFCC = getTea(prepareBlackTea, 13);
 
-console.log(
-  tea4GreenTeamFCC,
-  tea4BlackTeamFCC
-);
+console.log(tea4GreenTeamFCC, tea4BlackTeamFCC);
 
 // (27) ["greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea"]
 // (13) ["blackTea", "blackTea", "blackTea", "blackTea", "blackTea", "blackTea", "blackTea", "blackTea", "blackTea", "blackTea", "blackTea", "blackTea", "blackTea"]
