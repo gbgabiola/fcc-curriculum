@@ -29,4 +29,4 @@ const tea4TeamFCC = getTea(40);
 
 console.log(tea4TeamFCC);
 
-// (40) ["greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea"]
+// (40) ['greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea']

@@ -133,13 +133,13 @@ var watchList = [
 var rating = [];
 
 rating = watchList.map(item => ({
-  title: item.Title, // item["Title"]
-  rating: item.imdbRating // item["imdbRating"]
+  title: item.Title, // item['Title']
+  rating: item.imdbRating // item['imdbRating']
 }));
 
 console.log(rating);
-// 0: {title: "Inception", rating: "8.8"}
-// 1: {title: "Interstellar", rating: "8.6"}
-// 2: {title: "The Dark Knight", rating: "9.0"}
-// 3: {title: "Batman Begins", rating: "8.3"}
-// 4: {title: "Avatar", rating: "7.9"}
+// 0: {title: 'Inception', rating: '8.8'}
+// 1: {title: 'Interstellar', rating: '8.6'}
+// 2: {title: 'The Dark Knight', rating: '9.0'}
+// 3: {title: 'Batman Begins', rating: '8.3'}
+// 4: {title: 'Avatar', rating: '7.9'}

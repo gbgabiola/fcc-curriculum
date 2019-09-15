@@ -39,5 +39,5 @@ const tea4BlackTeamFCC = getTea(prepareBlackTea, 13);
 
 console.log(tea4GreenTeamFCC, tea4BlackTeamFCC);
 
-// (27) ["greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea", "greenTea"]
-// (13) ["blackTea", "blackTea", "blackTea", "blackTea", "blackTea", "blackTea", "blackTea", "blackTea", "blackTea", "blackTea", "blackTea", "blackTea", "blackTea"]
+// (27) ['greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea']
+// (13) ['blackTea', 'blackTea', 'blackTea', 'blackTea', 'blackTea', 'blackTea', 'blackTea', 'blackTea', 'blackTea', 'blackTea', 'blackTea', 'blackTea', 'blackTea']

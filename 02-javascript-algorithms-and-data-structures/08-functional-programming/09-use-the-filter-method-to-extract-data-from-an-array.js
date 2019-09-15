@@ -146,4 +146,4 @@ let filteredList = watchList
 //   .map(item => ({ title: item.Title, rating: item.imdbRating }));
 
 console.log(filteredList);
-// [{"title":"Inception","rating":"8.8"},{"title":"Interstellar","rating":"8.6"},{"title":"The Dark Knight","rating":"9.0"},{"title":"Batman Begins","rating":"8.3"}]
+// [{'title':'Inception','rating':'8.8'},{'title':'Interstellar','rating':'8.6'},{'title':'The Dark Knight','rating':'9.0'},{'title':'Batman Begins','rating':'8.3'}]
