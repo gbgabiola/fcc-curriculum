@@ -28,9 +28,9 @@ The functional programming software development approach breaks a program into s
 - [x] [Sort an Array Alphabetically using the sort Method](16-sort-an-array-alphabetically-using-the-sort-method.js)
 - [x] [Return a Sorted Array Without Changing the Original Array](17-return-a-sorted-array-without-changing-the-original-array.js)
 - [x] [Split a String into an Array Using the split Method](18-split-a-string-into-an-array-using-the-split-method.js)
-- [ ] [Combine an Array into a String Using the join Method](19-combine-an-array-into-a-string-using-the-join-method.js)
-- [ ] [Apply Functional Programming to Convert Strings to URL Slugs](20-apply-functional-programming-to-convert-strings-to-url-slugs.js)
-- [ ] [Use the every Method to Check that Every Element in an Array Meets a Criteria](21-use-the-every-method-to-check-that-every-element-in-an-array-meets-a-criteria.js)
+- [x] [Combine an Array into a String Using the join Method](19-combine-an-array-into-a-string-using-the-join-method.js)
+- [x] [Apply Functional Programming to Convert Strings to URL Slugs](20-apply-functional-programming-to-convert-strings-to-url-slugs.js)
+- [x] [Use the every Method to Check that Every Element in an Array Meets a Criteria](21-use-the-every-method-to-check-that-every-element-in-an-array-meets-a-criteria.js)
 - [ ] [Use the some Method to Check that Any Elements in an Array Meet a Criteria](22-use-the-some-method-to-check-that-any-elements-in-an-array-meet-a-criteria.js)
 - [ ] [Introduction to Currying and Partial Application](23-introduction-to-currying-and-partial-application.js)
 
