@@ -31,8 +31,8 @@ The functional programming software development approach breaks a program into s
 - [x] [Combine an Array into a String Using the join Method](19-combine-an-array-into-a-string-using-the-join-method.js)
 - [x] [Apply Functional Programming to Convert Strings to URL Slugs](20-apply-functional-programming-to-convert-strings-to-url-slugs.js)
 - [x] [Use the every Method to Check that Every Element in an Array Meets a Criteria](21-use-the-every-method-to-check-that-every-element-in-an-array-meets-a-criteria.js)
-- [ ] [Use the some Method to Check that Any Elements in an Array Meet a Criteria](22-use-the-some-method-to-check-that-any-elements-in-an-array-meet-a-criteria.js)
-- [ ] [Introduction to Currying and Partial Application](23-introduction-to-currying-and-partial-application.js)
+- [x] [Use the some Method to Check that Any Elements in an Array Meet a Criteria](22-use-the-some-method-to-check-that-any-elements-in-an-array-meet-a-criteria.js)
+- [x] [Introduction to Currying and Partial Application](23-introduction-to-currying-and-partial-application.js)
 
 ---
 
