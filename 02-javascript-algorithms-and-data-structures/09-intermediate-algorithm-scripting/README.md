@@ -2,8 +2,8 @@
 
 - [x] [Sum All Numbers in a Range](01-sum-all-numbers-in-a-range.js)
 - [x] [Diff Two Arrays](02-diff-two-arrays.js)
-- [ ] [Seek and Destroy](03-seek-and-destroy.js)
-- [ ] [Wherefore art thou](04-wherefore-art-thou.js)
+- [x] [Seek and Destroy](03-seek-and-destroy.js)
+- [x] [Wherefore art thou](04-wherefore-art-thou.js)
 - [ ] [Spinal Tap Case](05-spinal-tap-case.js)
 - [ ] [Pig Latin](06-pig-latin.js)
 - [ ] [Search and Replace](07-search-and-replace.js)
