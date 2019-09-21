@@ -6,7 +6,7 @@
 - [x] [Wherefore art thou](04-wherefore-art-thou.js)
 - [x] [Spinal Tap Case](05-spinal-tap-case.js)
 - [x] [Pig Latin](06-pig-latin.js)
-- [ ] [Search and Replace](07-search-and-replace.js)
+- [x] [Search and Replace](07-search-and-replace.js)
 - [ ] [DNA Pairing](08-dna-pairing.js)
 - [ ] [Missing letters](09-missing-letters.js)
 - [ ] [Sorted Union](10-sorted-union.js)
