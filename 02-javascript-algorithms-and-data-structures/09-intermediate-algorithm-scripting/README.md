@@ -7,7 +7,7 @@
 - [x] [Spinal Tap Case](05-spinal-tap-case.js)
 - [x] [Pig Latin](06-pig-latin.js)
 - [x] [Search and Replace](07-search-and-replace.js)
-- [ ] [DNA Pairing](08-dna-pairing.js)
+- [x] [DNA Pairing](08-dna-pairing.js)
 - [ ] [Missing letters](09-missing-letters.js)
 - [ ] [Sorted Union](10-sorted-union.js)
 - [ ] [Convert HTML Entities](11-convert-html-entities.js)
