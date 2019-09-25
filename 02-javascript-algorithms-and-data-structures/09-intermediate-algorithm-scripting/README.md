@@ -10,7 +10,7 @@
 - [x] [DNA Pairing](08-dna-pairing.js)
 - [x] [Missing letters](09-missing-letters.js)
 - [x] [Sorted Union](10-sorted-union.js)
-- [ ] [Convert HTML Entities](11-convert-html-entities.js)
+- [x] [Convert HTML Entities](11-convert-html-entities.js)
 - [ ] [Sum All Odd Fibonacci Numbers](12-sum-all-odd-fibonacci-numbers.js)
 - [ ] [Sum All Primes](13-sum-all-primes.js)
 - [ ] [Smallest Common Multiple](14-smallest-common-multiple.js)
