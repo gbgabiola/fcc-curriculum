@@ -14,7 +14,7 @@
 - [x] [Sum All Odd Fibonacci Numbers](12-sum-all-odd-fibonacci-numbers.js)
 - [x] [Sum All Primes](13-sum-all-primes.js)
 - [x] [Smallest Common Multiple](14-smallest-common-multiple.js)
-- [ ] [Drop it](15-drop-it.js)
+- [x] [Drop it](15-drop-it.js)
 - [ ] [Steamroller](16-steamroller.js)
 - [ ] [Binary Agents](17-binary-agents.js)
 - [ ] [Everything Be True](18-everything-be-true.js)
