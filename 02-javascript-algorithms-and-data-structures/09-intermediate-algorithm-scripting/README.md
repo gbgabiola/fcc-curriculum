@@ -15,7 +15,7 @@
 - [x] [Sum All Primes](13-sum-all-primes.js)
 - [x] [Smallest Common Multiple](14-smallest-common-multiple.js)
 - [x] [Drop it](15-drop-it.js)
-- [ ] [Steamroller](16-steamroller.js)
+- [x] [Steamroller](16-steamroller.js)
 - [ ] [Binary Agents](17-binary-agents.js)
 - [ ] [Everything Be True](18-everything-be-true.js)
 - [ ] [Arguments Optional](19-arguments-optional.js)
