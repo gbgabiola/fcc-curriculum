@@ -18,7 +18,7 @@
 - [x] [Steamroller](16-steamroller.js)
 - [x] [Binary Agents](17-binary-agents.js)
 - [x] [Everything Be True](18-everything-be-true.js)
-- [ ] [Arguments Optional](19-arguments-optional.js)
+- [x] [Arguments Optional](19-arguments-optional.js)
 - [ ] [Make a Person](20-make-a-person.js)
 - [ ] [Map the Debris](21-map-the-debris.js)
 
