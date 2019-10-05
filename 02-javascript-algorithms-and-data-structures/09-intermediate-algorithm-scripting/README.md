@@ -20,7 +20,7 @@
 - [x] [Everything Be True](18-everything-be-true.js)
 - [x] [Arguments Optional](19-arguments-optional.js)
 - [x] [Make a Person](20-make-a-person.js)
-- [ ] [Map the Debris](21-map-the-debris.js)
+- [x] [Map the Debris](21-map-the-debris.js)
 
 ---
 
