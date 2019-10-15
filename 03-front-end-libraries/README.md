@@ -1,7 +1,7 @@
 # Front End Libraries Certification (300 hours)
 
 - [x] [Bootstrap](01-bootstrap#introduction-to-the-bootstrap-challenges)
-- [ ] [jQuery](02-jquery)
+- [x] [jQuery](02-jquery#introduction-to-jquery)
 - [ ] [Sass](03-sass)
 - [ ] [React](04-react)
 - [ ] [Redux](05-redux)

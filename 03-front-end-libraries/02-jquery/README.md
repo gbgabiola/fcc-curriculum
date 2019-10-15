@@ -16,10 +16,10 @@ jQuery is one of the many libraries for JavaScript. It is designed to simplify s
 - [x] [Use appendTo to Move Elements with jQuery](12-use-appendto-to-move-elements-with-jquery.js)
 - [x] [Clone an Element Using jQuery](13-clone-an-element-using-jquery.js)
 - [x] [Target the Parent of an Element Using jQuery](14-target-the-parent-of-an-element-using-jquery.js)
-- [ ] [Target the Children of an Element Using jQuery](15-target-the-children-of-an-element-using-jquery.js)
-- [ ] [Target a Specific Child of an Element Using jQuery](16-target-a-specific-child-of-an-element-using-jquery.js)
-- [ ] [Target Even Elements Using jQuery](17-target-even-elements-using-jquery.js)
-- [ ] [Use jQuery to Modify the Entire Page](18-use-jquery-to-modify-the-entire-page.js)
+- [x] [Target the Children of an Element Using jQuery](15-target-the-children-of-an-element-using-jquery.js)
+- [x] [Target a Specific Child of an Element Using jQuery](16-target-a-specific-child-of-an-element-using-jquery.js)
+- [x] [Target Even Elements Using jQuery](17-target-even-elements-using-jquery.js)
+- [x] [Use jQuery to Modify the Entire Page](18-use-jquery-to-modify-the-entire-page.js)
 
 ---
 
