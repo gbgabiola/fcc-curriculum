@@ -58,10 +58,11 @@ This section introduces how to use HTML elements to give structure and meaning t
 - [x] [Use HTML5 to Require a Field](21-use-html5-to-require-a-field.html)
 - [x] [Create a Set of Radio Buttons](22-create-a-set-of-radio-buttons.html)
 - [x] [Create a Set of Checkboxes](23-create-a-set-of-checkboxes.html)
-- [x] [Check Radio Buttons and Checkboxes by Defalit](24-check-radio-buttons-and-checkboxes-by-default.html)
-- [x] [Nest Many Elements within a Single div Element](25-nest-many-elements-within-a-single-div-element.html)
-- [x] [Declare the Doctype of an HTML Document](26-declare-the-doctype-of-an-html-document.html)
-- [x] [Define the Head and Body of an HTML Document](27-define-the-head-and-body-of-an-html-document.html)
+- [x] [Use the value attribute with Radio Buttons and Checkboxes](24-use-the-value-attribute-with-radio-buttons-and-checkboxes.html)
+- [x] [Check Radio Buttons and Checkboxes by Defalit](25-check-radio-buttons-and-checkboxes-by-default.html)
+- [x] [Nest Many Elements within a Single div Element](26-nest-many-elements-within-a-single-div-element.html)
+- [x] [Declare the Doctype of an HTML Document](27-declare-the-doctype-of-an-html-document.html)
+- [x] [Define the Head and Body of an HTML Document](28-define-the-head-and-body-of-an-html-document.html)
 
 ---
 
