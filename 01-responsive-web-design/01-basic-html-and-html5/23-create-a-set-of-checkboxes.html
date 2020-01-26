@@ -10,26 +10,23 @@
     <li>laser pointers</li>
     <li>lasagna</li>
   </ul>
+
   <p>Top 3 things cats hate:</p>
   <ol>
     <li>flea treatment</li>
     <li>thunder</li>
     <li>other cats</li>
   </ol>
+  
   <form action="/submit-cat-photo">
     <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor"> Indoor</label>
     <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label><br>
+
+    <label for="sweet"><input type="checkbox" name="personality"> Sweet</label>
+    <label for="caring"><input type="checkbox" name="personality"> Caring</label>
+    <label for="loving"><input type="checkbox" name="personality"> Loving</label>
+
     <input type="text" placeholder="cat photo URL" required>
-    
-    <label for="sweet">
-      <input type="checkbox" name="personality" id="sweet"> Sweet
-    </label>
-    <label for="caring">
-      <input type="checkbox" name="personality" id="caring"> Caring
-    </label>
-    <label for="loving">
-      <input type="checkbox" name="personality" id="loving"> Loving
-    </label>
     <button type="submit">Submit</button>
   </form>
 </main>

@@ -55,14 +55,14 @@ This section introduces how to use HTML elements to give structure and meaning t
 - [x] [Add Placeholder Text to a Text Field](18-add-placeholder-text-to-a-text-field.html)
 - [x] [Create a Form Element](19-create-a-form-element.html)
 - [x] [Add a Submit Button to a Form](20-add-a-submit-button-to-a-form.html)
-- [ ] [Use HTML5 to Require a Field](21-use-html5-to-require-a-field.html)
-- [ ] [Create a Set of Radio Buttons](22-create-a-set-of-radio-buttons.html)
-- [ ] [Create a Set of Checkboxes](23-create-a-set-of-checkboxes.html)
-- [ ] [Use the value attribute with Radio Buttons and Checkboxes](24-use-the-value-attribute-with-radio-buttons-and-checkboxes.html)
-- [ ] [Check Radio Buttons and Checkboxes by Defalit](25-check-radio-buttons-and-checkboxes-by-default.html)
-- [ ] [Nest Many Elements within a Single div Element](26-nest-many-elements-within-a-single-div-element.html)
-- [ ] [Declare the Doctype of an HTML Document](27-declare-the-doctype-of-an-html-document.html)
-- [ ] [Define the Head and Body of an HTML Document](28-define-the-head-and-body-of-an-html-document.html)
+- [x] [Use HTML5 to Require a Field](21-use-html5-to-require-a-field.html)
+- [x] [Create a Set of Radio Buttons](22-create-a-set-of-radio-buttons.html)
+- [x] [Create a Set of Checkboxes](23-create-a-set-of-checkboxes.html)
+- [x] [Use the value attribute with Radio Buttons and Checkboxes](24-use-the-value-attribute-with-radio-buttons-and-checkboxes.html)
+- [x] [Check Radio Buttons and Checkboxes by Defalit](25-check-radio-buttons-and-checkboxes-by-default.html)
+- [x] [Nest Many Elements within a Single div Element](26-nest-many-elements-within-a-single-div-element.html)
+- [x] [Declare the Doctype of an HTML Document](27-declare-the-doctype-of-an-html-document.html)
+- [x] [Define the Head and Body of an HTML Document](28-define-the-head-and-body-of-an-html-document.html)
 
 ---
 
