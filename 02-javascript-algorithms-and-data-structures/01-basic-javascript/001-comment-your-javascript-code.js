@@ -1,9 +1,9 @@
-// One Line Comment...
+// One-line or in-line comment
 
-/*
-Multiple
-Lines
-of
-Comment
+/* This is a
+.
+..
 ...
-*/
+....
+.....
+Multiple-line comment */
