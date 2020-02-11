@@ -1,4 +1,4 @@
-var someAdjective = "beneficial";
-var myStr = "Learning to code is ";
+var someAdjective = 'astounding';
+var myStr = 'Learning to code is ';
 
 myStr += someAdjective;
