@@ -1,1 +1,5 @@
-var myArray = [["David", 26], ["Jesh", 30], ["Moises", 31]];
+var myArray = [
+  ['David', 27],
+  ['Jesh', 31],
+  ['Moises', 32]
+];

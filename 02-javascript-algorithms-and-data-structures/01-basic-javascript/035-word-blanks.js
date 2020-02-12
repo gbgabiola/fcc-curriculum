@@ -1,8 +1,6 @@
-function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
-  var result = "My " + myNoun + " is really " + myAdjective + ", but he " + myVerb + " so very " + myAdverb;
+var myNoun = 'dog';
+var myAdjective = 'big';
+var myVerb = 'ran';
+var myAdverb = 'quickly';
 
-  return result;
-}
-
-// Change the words here to test the function
-wordBlanks("dog", "big", "ran", "quickly");
+var wordBlanks = 'My ' + myNoun + ' is very ' + myAdjective + ', but he ' + myVerb + ' so ' + myAdverb + '.';

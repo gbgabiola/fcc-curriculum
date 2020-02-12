@@ -1,1 +1,1 @@
-var myArray = ["Genesis", 26];
+var myArray = ['Genesis', 26];
