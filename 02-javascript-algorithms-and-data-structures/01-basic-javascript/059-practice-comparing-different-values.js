@@ -1,9 +1,10 @@
 // Setup
 function compareEquality(a, b) {
   if (a === b) {
-    return "Equal";
+    return 'Equal';
   }
-  return "Not Equal";
+  return 'Not Equal';
 }
 
-compareEquality(10, "10");
+// Change this value to test
+compareEquality(10, '10');

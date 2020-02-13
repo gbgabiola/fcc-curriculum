@@ -1,10 +1,9 @@
 // Setup
-var outerWear = "T-Shirt";
+var outerWear = 'T-Shirt';
 
 function myOutfit() {
-  var outerWear = "sweater";
+  var outerWear = 'sweater';
   return outerWear;
 }
 
-myOutfit();
-// sweater
+myOutfit(); // sweater

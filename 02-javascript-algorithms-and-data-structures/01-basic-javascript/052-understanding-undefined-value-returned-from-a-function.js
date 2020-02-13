@@ -4,4 +4,6 @@ function addFive() {
   sum += 5;
 }
 
-var returnedValue = addFive();
+addFive();
+// var returnedValue = addFive();
+// console.log(returnedValue)

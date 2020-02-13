@@ -2,4 +2,4 @@ function functionWithArgs(a, b) {
   console.log(a + b);
 }
 
-functionWithArgs(3, 5);
+functionWithArgs(3, 4);
