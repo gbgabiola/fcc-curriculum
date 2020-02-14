@@ -1,6 +1,6 @@
 function switchOfStuff(val) {
   var answer = '';
-  switch(val) {
+  switch (val) {
     case 'a':
       answer = 'apple';
       break;
@@ -13,7 +13,8 @@ function switchOfStuff(val) {
     default:
       answer = 'stuff';
   }
-  return answer;  
+  return answer;
 }
 
+// Change this value to test
 switchOfStuff(1);

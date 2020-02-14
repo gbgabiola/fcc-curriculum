@@ -12,4 +12,5 @@ function testSize(num) {
   }
 }
 
+// Change this value to test
 testSize(7);

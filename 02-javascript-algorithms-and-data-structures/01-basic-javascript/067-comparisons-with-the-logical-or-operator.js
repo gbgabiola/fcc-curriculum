@@ -1,8 +1,9 @@
 function testLogicalOr(val) {
-  if (val > 20 || val < 10) {
-    return "Outside";
+  if (val < 10 || val > 20) {
+    return 'Outside';
   }
-  return "Inside";
+  return 'Inside';
 }
 
+// Change this value to test
 testLogicalOr(15);
