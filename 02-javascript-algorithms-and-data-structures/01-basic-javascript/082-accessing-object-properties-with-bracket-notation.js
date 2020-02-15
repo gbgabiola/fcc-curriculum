@@ -1,9 +1,9 @@
 // Setup
 var testObj = {
-  "an entree": "hamburger",
-  "my side": "veggies",
-  "the drink": "water"
+  'an entree': 'hamburger',
+  'my side': 'veggies',
+  'the drink': 'water'
 };
 
-var entreeValue = testObj["an entree"];
-var drinkValue = testObj["the drink"];
+var entreeValue = testObj['an entree'];
+var drinkValue = testObj['the drink'];

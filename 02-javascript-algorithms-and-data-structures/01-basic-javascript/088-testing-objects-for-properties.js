@@ -1,19 +1,19 @@
 // Setup
 var myObj = {
-  gift: "pony",
-  pet: "kitten",
-  bed: "sleigh"
+  gift: 'pony',
+  pet: 'kitten',
+  bed: 'sleigh'
 };
 
 function checkObj(checkProp) {
-  // adding == true is optional
-  if (myObj.hasOwnProperty(checkProp) == true) {
+  if (myObj.hasOwnProperty(checkProp)) {
     return myObj[checkProp];
   }
-  return "Not Found";
+  return 'Not Found';
 
   // Using ternary operator
-  // return myObj.hasOwnProperty(checkProp) ? myObj[checkProp] : "Not Found"
+  // return myObj.hasOwnProperty(checkProp) ? myObj[checkProp] : 'Not Found';
 }
 
-checkObj("gift");
+// Test your code by modifying these values
+checkObj('gift');

@@ -1,6 +1,6 @@
 function chainToSwitch(val) {
   var answer = '';
-  switch(val) {
+  switch (val) {
     case 'bob':
       answer = 'Marley';
       break;
@@ -16,7 +16,8 @@ function chainToSwitch(val) {
     case 7:
       answer = 'Ate Nine';
   }
-  return answer;  
+  return answer;
 }
 
+// Change this value to test
 chainToSwitch(7);
