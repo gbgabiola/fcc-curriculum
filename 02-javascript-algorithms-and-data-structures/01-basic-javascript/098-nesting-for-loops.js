@@ -1,3 +1,8 @@
+/** Challenge: Iterate Nesting For Loops
+ *
+ * Modify function multiplyAll so that it multiplies the product variable by each number in the sub-arrays of arr
+ */
+
 function multiplyAll(arr) {
   var product = 1;
 
@@ -9,4 +14,5 @@ function multiplyAll(arr) {
   return product;
 }
 
-multiplyAll([[1,2],[3,4],[5,6,7]]);
+// Modify values below to test your code
+multiplyAll([[1,2],[3,4],[5,6,7]]); // 5040
