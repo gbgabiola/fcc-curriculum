@@ -1,12 +1,16 @@
-const AVG_TEMPERATURES = {
-  today: 77.5,
-  tomorrow: 79
+/**
+ * Challenge: Replace the two assignments with an equivalent destructuring assignment.
+ * It should still assign the variables highToday and highTomorrow the values of today and tomorrow from the HIGH_TEMPERATURES object.
+ */
+
+const HIGH_TEMPERATURES = {
+  yesterday: 75,
+  today: 77,
+  tomorrow: 80
 };
 
-function getTempOfTmrw(avgTemperatures) {
-  "use strict";
-  const { tomorrow : tempOfTomorrow } = avgTemperatures; 
-  return tempOfTomorrow;
-}
+const { today: highToday, tomorrow: highTomorrow } = HIGH_TEMPERATURES;
 
-console.log(getTempOfTmrw(AVG_TEMPERATURES)); // should be 79
+console.log(yesterday); // ReferenceError: yesterday is not defined
+console.log(highToday); // 77
+console.log(highTomorrow); // 80

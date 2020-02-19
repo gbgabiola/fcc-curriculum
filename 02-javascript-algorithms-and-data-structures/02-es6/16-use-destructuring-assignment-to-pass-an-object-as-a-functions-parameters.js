@@ -1,3 +1,7 @@
+/**
+ * Challenge: Use destructuring assignment within the argument to the function half to send only max and min inside the function.
+ */
+
 const stats = {
   max: 56.78,
   standard_deviation: 4.34,
@@ -6,18 +10,9 @@ const stats = {
   min: -0.75,
   average: 35.85
 };
-const half = (function() {
-  "use strict";
-  
-  // return function half({max, min}) {
-  //   return (max + min) / 2.0;
-  // };
 
-  // Using anonymous function
-  return (({max, min}) => {
-    return (max + min) / 2.0;
-  });
-})();
-console.log(stats); // should be object
-console.log(half(stats)); // should be 28.015
+// use function argument destructuring
+const half = ({ max, min }) => (max + min) / 2.0;
 
+console.log(stats); // object
+console.log(half(stats)); // 28.015
