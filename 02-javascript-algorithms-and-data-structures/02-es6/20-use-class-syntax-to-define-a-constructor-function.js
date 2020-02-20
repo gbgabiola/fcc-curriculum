@@ -1,12 +1,14 @@
-function makeClass() {
-  "use strict";
-  class Vegetable {
-    constructor(name) {
-      this.name = name;
-    }
+/**
+ * Challenge: Use the class keyword and write a constructor to create the Vegetable class.
+ *
+ * The Vegetable class allows you to create a vegetable object with a property name that gets passed to the constructor.
+ */
+
+class Vegetable {
+  constructor(name) {
+    this.name = name;
   }
-  return Vegetable;
 }
-const Vegetable = makeClass();
+
 const carrot = new Vegetable('carrot');
-console.log(carrot.name); // => should be 'carrot'
+console.log(carrot.name); // carrot
