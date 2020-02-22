@@ -1,7 +1,7 @@
-/*
-  Challenge: Apply the regex myRegex on the string myString using the .test() method.
-*/
+/**
+ * Challenge: Apply the regex myRegex on the string myString using the .test() method.
+ */
 
-let myString = "Hello, World!";
+let myString = 'Hello, World!';
 let myRegex = /Hello/;
-let result = myRegex.test(myString); // Change this line
+let result = myRegex.test(myString); // true
