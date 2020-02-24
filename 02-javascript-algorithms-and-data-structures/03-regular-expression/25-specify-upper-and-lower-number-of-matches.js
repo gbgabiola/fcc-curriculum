@@ -1,7 +1,7 @@
-/*
-  Challenge: Change the regex ohRegex to match only 3 to 6 letter h's in the word "Oh no".
-*/
+/**
+ * Challenge: Change the regex ohRegex to match the entire phrase "Oh no" only when it has 3 to 6 letter h's.
+ */
 
-let ohStr = "Ohhh no";
-let ohRegex = /oh{3,6}\sno/i;
-let result = ohRegex.test(ohStr);
+let ohStr = 'Ohhh no';
+let ohRegex = /Oh{3,6}\sno/; // /oh{3,6}\sno/i
+let result = ohRegex.test(ohStr); // true

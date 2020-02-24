@@ -24,17 +24,17 @@ Regular expressions are special strings that represent a search pattern. Also kn
 - [x] [Match All Numbers](20-match-all-numbers.js)
 - [x] [Match All Non-Numbers](21-match-all-non-numbers.js)
 - [x] [Restrict Possible Usernames](22-restrict-possible-usernames.js)
-- [ ] [Match Whitespace](23-match-whitespace.js)
-- [ ] [Match Non-Whitespace Characters](24-match-non-whitespace-characters.js)
-- [ ] [Specify Upper and Lower Number of Matches](25-specify-upper-and-lower-number-of-matches.js)
-- [ ] [Specify Only the Lower Number of Matches](26-specify-only-the-lower-number-of-matches.js)
-- [ ] [Specify Exact Number of Matches](27-specify-exact-number-of-matches.js)
-- [ ] [Check for All or None](28-check-for-all-or-none.js)
-- [ ] [Positive and Negative Lookahead](29-positive-and-negative-lookahead.js)
-<!-- - [ ] [Check For Mixed Grouping of Characters](30-check-for-mixed-grouping-of-characters.js) -->
-- [ ] [Reuse Patterns Using Capture Groups](30-reuse-patterns-using-capture-groups.js)
-- [ ] [Use Capture Groups to Search and Replace](31-use-capture-groups-to-search-and-replace.js)
-- [ ] [Remove Whitespace from Start and End](32-remove-whitespace-from-start-and-end.js)
+- [x] [Match Whitespace](23-match-whitespace.js)
+- [x] [Match Non-Whitespace Characters](24-match-non-whitespace-characters.js)
+- [x] [Specify Upper and Lower Number of Matches](25-specify-upper-and-lower-number-of-matches.js)
+- [x] [Specify Only the Lower Number of Matches](26-specify-only-the-lower-number-of-matches.js)
+- [x] [Specify Exact Number of Matches](27-specify-exact-number-of-matches.js)
+- [x] [Check for All or None](28-check-for-all-or-none.js)
+- [x] [Positive and Negative Lookahead](29-positive-and-negative-lookahead.js)
+- [x] [Check For Mixed Grouping of Characters](30-check-for-mixed-grouping-of-characters.js)
+- [x] [Reuse Patterns Using Capture Groups](31-reuse-patterns-using-capture-groups.js)
+- [x] [Use Capture Groups to Search and Replace](32-use-capture-groups-to-search-and-replace.js)
+- [x] [Remove Whitespace from Start and End](33-remove-whitespace-from-start-and-end.js)
 
 ---
 
