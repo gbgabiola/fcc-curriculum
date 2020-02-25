@@ -1,15 +1,10 @@
-/*
-  Challenge: Use console.log() to print the variables in the code where indicated.
-*/
+/**
+ * Challenge: First, use console.clear() to clear the browser console. After that, use console.log to log the output variable.
+ */
 
-// Open your browser console
-let outputTwo = "This will print to the browser console 2 times";
-// Use console.log() to print the outputTwo variable
-console.log(outputTwo)
-
-let outputOne = "Try to get this to log only once to the browser console";
-// Use console.clear() in the next line to print the outputOne only once
+// Open your browser console.
+let output = 'Get this to log once in the browser console and twice in the freeCodeCamp console';
 console.clear();
+console.log(output); // Get this to log once in the browser console and twice in the freeCodeCamp console
 
-// Use console.log() to print the outputOne variable
-console.log(outputOne);
+// Check the two consoles to see the difference. The freeCodeCamp console should have printed the variable twice, once for each test of this challenge. The browser console should only print the variable once because you cleared it first.

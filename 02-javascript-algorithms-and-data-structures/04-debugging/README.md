@@ -1,10 +1,15 @@
 # [Debugging](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/debugging)
 
-Debugging is a valuable and (unfortunately) necessary tool for programmers. It follows the testing phase of checking if your code works as intended, and discovering it does not. Debugging is the process of finding exactly what isn't working and fixing it. After spending time creating a brilliant block of code, it is tough realizing it may have errors. These issues generally come in three forms: 1) syntax errors that prevent a program from running, 2) runtime errors when code fails to execute or has unexpected behavior, and 3) semantic (or logical) errors when code doesn't do what it's meant to.
+Debugging is a valuable and (unfortunately) necessary tool for programmers. It follows the testing phase of checking if your code works as intended, and discovering it does not. Debugging is the process of finding exactly what isn't working and fixing it. After spending time creating a brilliant block of code, it is tough realizing it may have errors. These issues generally come in three forms:
+
+1. syntax errors that prevent a program from running,
+2. runtime errors when code fails to execute or has unexpected behavior
+3. semantic (or logical) errors when code doesn't do what it's meant to.
 
 Modern code editors (and experience) can help identify syntax errors. Semantic and runtime errors are harder to find. They may cause your program to crash, make it run forever, or give incorrect output. Think of debugging as trying to understand why your code is behaving the way it is.
 
 Example of a syntax error - often detected by the code editor:
+
 ```js
 funtion willNotWork( {
   console.log("Yuck");
@@ -13,6 +18,7 @@ funtion willNotWork( {
 ```
 
 Here's an example of a runtime error - often detected while the program executes:
+
 ```js
 function loopy() {
   while(true) {
@@ -23,6 +29,7 @@ function loopy() {
 ```
 
 Example of a semantic error - often detected after testing code output:
+
 ```js
 function calcAreaOfRect(w, h) {
   return w + h; // This should be w * h
@@ -41,14 +48,14 @@ This section will cover a couple helpful tools to find bugs, and some of the com
 - [x] [Understanding the Differences between the freeCodeCamp and Browser Console](02-understanding-the-differences-between-the-freecodecamp-and-browser-console.js)
 - [x] [Use typeof to Check the Type of a Variable](03-use-typeof-to-check-the-type-of-a-variable.js)
 - [x] [Catch Misspelled Variable and Function Names](04-catch-misspelled-variable-and-function-names.js)
-- [x] [Catch Unclosed Parentheses, Brackets, Braces and Quotes](05-catch-unclosed-parentheses-brackets-braces-and-quotes.js)
-- [x] [Catch Mixed Usage of Single and Double Quotes](06-catch-mixed-usage-of-single-and-double-quotes.js)
-- [x] [Catch Use of Assignment Operator Instead of Equality Operator](07-catch-use-of-assignment-operator-instead-of-equality-operator.js)
-- [x] [Catch Missing Open and Closing Parenthesis After a Function Call](08-catch-missing-open-and-closing-parenthesis-after-a-function-calljsd)
-- [x] [Catch Arguments Passed in the Wrong Order When Calling a Function](09-catch-arguments-passed-in-the-wrong-order-when-calling-a-function.js)
-- [x] [Catch Off By One Errors When Using Indexing](10-catch-off-by-one-errors-when-using-indexing.js)
-- [x] [Use Caution When Reinitializing Variables Inside a Loop](11-use-caution-when-reinitializing-variables-inside-a-loop.js)
-- [x] [Prevent Infinite Loops with a Valid Terminal Condition](12-prevent-infinite-loops-with-a-valid-terminal-condition.js)
+- [ ] [Catch Unclosed Parentheses, Brackets, Braces and Quotes](05-catch-unclosed-parentheses-brackets-braces-and-quotes.js)
+- [ ] [Catch Mixed Usage of Single and Double Quotes](06-catch-mixed-usage-of-single-and-double-quotes.js)
+- [ ] [Catch Use of Assignment Operator Instead of Equality Operator](07-catch-use-of-assignment-operator-instead-of-equality-operator.js)
+- [ ] [Catch Missing Open and Closing Parenthesis After a Function Call](08-catch-missing-open-and-closing-parenthesis-after-a-function-calljsd)
+- [ ] [Catch Arguments Passed in the Wrong Order When Calling a Function](09-catch-arguments-passed-in-the-wrong-order-when-calling-a-function.js)
+- [ ] [Catch Off By One Errors When Using Indexing](10-catch-off-by-one-errors-when-using-indexing.js)
+- [ ] [Use Caution When Reinitializing Variables Inside a Loop](11-use-caution-when-reinitializing-variables-inside-a-loop.js)
+- [ ] [Prevent Infinite Loops with a Valid Terminal Condition](12-prevent-infinite-loops-with-a-valid-terminal-condition.js)
 
 ---
 
