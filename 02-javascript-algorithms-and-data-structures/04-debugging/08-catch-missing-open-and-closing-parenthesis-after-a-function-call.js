@@ -1,6 +1,6 @@
-/*
-  Challenge: Fix the code so the variable result is set to the value returned from calling the function getNine.
-*/
+/**
+ * Challenge: Fix the code so the variable result is set to the value returned from calling the function getNine.
+ */
 
 function getNine() {
   let x = 6;

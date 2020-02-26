@@ -1,15 +1,15 @@
-/*
-  Challenge: Fix the condition so the program runs the right branch, and the appropriate value is assigned to result.
-*/
+/**
+ * Challenge: Fix the condition so the program runs the right branch, and the appropriate value is assigned to result.
+ */
 
 let x = 7;
 let y = 9;
-let result = "to come";
+let result = 'to come';
 
-if(x == y) {
-  result = "Equal!";
+if (x == y) {
+  result = 'Equal!';
 } else {
-  result = "Not equal!";
+  result = 'Not equal!';
 }
 
-console.log(result); // "Not Equal"
+console.log(result); // Not Equal
