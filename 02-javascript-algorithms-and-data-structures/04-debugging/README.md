@@ -52,10 +52,10 @@ This section will cover a couple helpful tools to find bugs, and some of the com
 - [x] [Catch Mixed Usage of Single and Double Quotes](06-catch-mixed-usage-of-single-and-double-quotes.js)
 - [x] [Catch Use of Assignment Operator Instead of Equality Operator](07-catch-use-of-assignment-operator-instead-of-equality-operator.js)
 - [x] [Catch Missing Open and Closing Parenthesis After a Function Call](08-catch-missing-open-and-closing-parenthesis-after-a-function-calljsd)
-- [ ] [Catch Arguments Passed in the Wrong Order When Calling a Function](09-catch-arguments-passed-in-the-wrong-order-when-calling-a-function.js)
-- [ ] [Catch Off By One Errors When Using Indexing](10-catch-off-by-one-errors-when-using-indexing.js)
-- [ ] [Use Caution When Reinitializing Variables Inside a Loop](11-use-caution-when-reinitializing-variables-inside-a-loop.js)
-- [ ] [Prevent Infinite Loops with a Valid Terminal Condition](12-prevent-infinite-loops-with-a-valid-terminal-condition.js)
+- [x] [Catch Arguments Passed in the Wrong Order When Calling a Function](09-catch-arguments-passed-in-the-wrong-order-when-calling-a-function.js)
+- [x] [Catch Off By One Errors When Using Indexing](10-catch-off-by-one-errors-when-using-indexing.js)
+- [x] [Use Caution When Reinitializing Variables Inside a Loop](11-use-caution-when-reinitializing-variables-inside-a-loop.js)
+- [x] [Prevent Infinite Loops with a Valid Terminal Condition](12-prevent-infinite-loops-with-a-valid-terminal-condition.js)
 
 ---
 
