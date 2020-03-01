@@ -1,8 +1,8 @@
-/*
-  Challenge: We've defined a function, checkInventory, which receives a scanned item as an argument.
-  Return the current value of the scannedItem key in the foods object.
-  You can assume that only valid keys will be provided as an argument to checkInventory.
-*/
+/**
+ * Challenge: We've defined a function, checkInventory, which receives a scanned item as an argument.
+ * Return the current value of the scannedItem key in the foods object.
+ * You can assume that only valid keys will be provided as an argument to checkInventory.
+ */
 
 let foods = {
   apples: 25,
@@ -18,4 +18,4 @@ function checkInventory(scannedItem) {
 }
 
 // change code below this line to test different cases:
-console.log(checkInventory("apples")); // 25
+console.log(checkInventory('apples')); // 25
