@@ -1,6 +1,6 @@
-/*
-  Challenge: Use the delete keyword to remove the oranges, plums, and strawberries keys from the foods object.
-*/
+/**
+ * Challenge: Use the delete keyword to remove the oranges, plums, and strawberries keys from the foods object.
+ */
 
 let foods = {
   apples: 25,
@@ -21,4 +21,4 @@ delete foods.strawberries;
 // delete foods['plums'];
 // delete foods['strawberries'];
 
-console.log(foods);
+console.log(foods); // { apples: 25, bananas: 13, grapes: 35 }

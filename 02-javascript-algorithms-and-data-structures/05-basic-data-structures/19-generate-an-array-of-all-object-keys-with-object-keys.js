@@ -1,6 +1,6 @@
-/*
-  Challenge: Finish writing the getArrayOfUsers function so that it returns an array containing all the properties in the object it receives as an argument.
-*/
+/**
+ * Challenge: Finish writing the getArrayOfUsers function so that it returns an array containing all the properties in the object it receives as an argument.
+ */
 
 let users = {
   Alan: {
@@ -25,4 +25,4 @@ function getArrayOfUsers(obj) {
   return Object.keys(obj);
 }
 
-console.log(getArrayOfUsers(users));
+console.log(getArrayOfUsers(users)); // ['Alan', 'Jeff', 'Sarah', 'Ryan']

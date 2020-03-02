@@ -1,7 +1,7 @@
-/*
-  Challenge: We've created an object, users, with some users in it and a function isEveryoneHere, which we pass the users object to as an argument.
-  Finish writing this function so that it returns true only if the users object contains all four names, Alan, Jeff, Sarah, and Ryan, as keys, and false otherwise.
-*/
+/**
+ * Challenge: We've created an object, users, with some users in it and a function isEveryoneHere, which we pass the users object to as an argument.
+ * Finish writing this function so that it returns true only if the users object contains all four names, Alan, Jeff, Sarah, and Ryan, as keys, and false otherwise.
+ */
 
 let users = {
   Alan: {
@@ -23,10 +23,11 @@ let users = {
 };
 
 function isEveryoneHere(obj) {
-  // Using ternary operator
-  // return obj.hasOwnProperty('Alan', 'Jeff', 'Sarah', 'Ryan') ? true : false;
+  // Using hasOwnProperty() and && operator
+  // return obj.hasOwnProperty('Alan') && obj.hasOwnProperty('Jeff') && obj.hasOwnProperty('Sarah') && obj.hasOwnProperty('Ryan');
 
-  return obj.hasOwnProperty('Alan', 'Jeff', 'Sarah', 'Ryan');
+  // Using array, every(), hasOwnProperty() and arrow function
+  return ['Alan', 'Jeff', 'Sarah', 'Ryan'].every(name => obj.hasOwnProperty(name));
 }
 
-console.log(isEveryoneHere(users));
+console.log(isEveryoneHere(users)); // true
