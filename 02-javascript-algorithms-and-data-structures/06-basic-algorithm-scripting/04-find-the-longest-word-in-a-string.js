@@ -1,38 +1,55 @@
-/*
-  Challenge: Return the length of the longest word in the provided sentence.
-  Your response should be a number.
-*/
+/**
+ * Challenge: Return the length of the longest word in the provided sentence.
+ *
+ * Your response should be a number.
+ */
 
 function findLongestWordLength(str) {
-  // Solution 1: Using split & for loop
-  let words = str.split(' ');
-  let maxLength = 0;
-  for (let i = 0; i < words.length; i++) {
-    if (words[i].length > maxLength) {
-      maxLength = words[i].length;
+  // Step 1: Split str into an array of strings
+  const splitStr = str.split(' ');
+
+  // Step 2: Initiate a variable to hold the length of the longest word
+  let longestWord = 0;
+  // Step 3: Create for loop
+  for (let i = 0; i < splitStr.length; i++) {
+    if (splitStr[i].length > longestWord) {
+      longestWord = splitStr[i].length; // longestWord takes this new value
     }
   }
-  return maxLength;
-
-
-  // Solution 2: Using split, reduce & Math.max
-  // return str.split(' ').reduce(function(x, y) {
-  //   return Math.max(x, y.length);
-  // }, 0);
-
-
-  // Solution 3: Using split, reduce & ternary
-  // str = str.split(' ').reduce((x, y) => {
-  //   return (x.length > y.length) ? x : y;
-  // });
-  // return str.length;
-
-
-  // Solution 4: Using split & sort
-  // str = str.split(' ').sort((x, y) => {
-  //   return y.length - x.length;
-  // })[0];
-  // return str.length;
+  // Step 4: Return the longestWord
+  return longestWord;
 }
 
-findLongestWordLength("The quick brown fox jumped over the lazy dog"); // 6
+console.log(findLongestWordLength("The quick brown fox jumped over the lazy dog")); // 6
+
+
+// Using sort() method
+function findLongestWordLength(str) {
+  // Step 1: Split str into an array of strings
+  const splitStr = str.split(' ');
+
+  // Step 2: Sort the elements in the array
+  const longestWord = splitStr.sort((a, b) => b.length - a.length);
+
+  // Step 3: Return the length of the first element of the array
+  return longestWord[0].length;
+}
+
+console.log(findLongestWordLength("The quick brown fox jumped over the lazy dog")); // 6
+
+
+// Using reduce() method
+function findLongestWordLength(str) {
+  // Step 1: Split str into an array of strings
+  const splitStr = str.split(' ');
+
+  // Step 2: Use reduce method
+  const longestWord = splitStr.reduce((longest, current) => {
+    return current.length > longest.length ? current : longest;
+  }, '');
+
+  // Step 3: Return the length of the longestWord
+  return longestWord.length;
+}
+
+console.log(findLongestWordLength("The quick brown fox jumped over the lazy dog")); // 6
