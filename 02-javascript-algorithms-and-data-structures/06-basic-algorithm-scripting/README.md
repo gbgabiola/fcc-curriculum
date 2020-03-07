@@ -18,7 +18,7 @@ In this section we will learn to solve basic algorithm problems using JavaScript
 - [x] [Truncate a String](08-truncate-a-string.js)
 - [x] [Finders Keepers](09-finders-keepers.js)
 - [x] [Boo who](10-boo-who.js)
-- [ ] [Title Case a Sentence](11-title-case-a-sentence.js)
+- [x] [Title Case a Sentence](11-title-case-a-sentence.js)
 - [ ] [Slice and Splice](12-slice-and-splice.js)
 - [ ] [Falsy Bouncer](13-falsy-bouncer.js)
 - [ ] [Where do I Belong](14-where-do-i-belong.js)
