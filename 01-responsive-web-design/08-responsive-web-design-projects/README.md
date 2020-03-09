@@ -14,4 +14,5 @@ By the end of this, you would have 5 responsive websites under your belt that yo
 
 ---
 
-Credits to [FreeCodeCamp](https://www.freecodecamp.org/)
+Credits to [freeCodeCamp](https://www.freecodecamp.org/)
+

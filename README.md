@@ -2,15 +2,25 @@
 
 You can earn each certification by completing its 5 final projects.
 
-## [Responsive Web Design Certification Projects](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects)
-- [x] [Build a Tribute Page](https://genesisgabiola.github.io/tribute-page/)
-- [ ] [Build a Survey Form]()
-- [ ] [Build a Product Landing Page]()
-- [ ] [Build a Technical Documentation Page]()
-- [ ] [Build a Personal Portfolio Webpage]()
+- [Responsive Web Design Projects](#responsive-web-design-projects)
+- [JavaScript Algorithms and Data Structures Projects](#javascript-algorithms-and-data-structures-projects)
+- [Front End Libraries Projects](#front-end-libraries-projects)
+- [Data Visualization Projects](#data-visualization-projects)
+- [APIs and Microservices Projects](#apis-and-microservices-projects)
+- [Information Security and Quality Assurance Projects](#information-security-and-quality-assurance-projects)
+- [Coding Interview Prep](#coding-interview-prep)
 
 
-## [JavaScript Algorithms and Data Structures Certification Projects](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects)
+## [Responsive Web Design Projects](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/)
+
+- [x] [Build a Tribute Page](./01-responsive-web-design/08-responsive-web-design-projects/01-build-a-tribute-page.md)
+- [ ] [Build a Survey Form](./01-responsive-web-design/08-responsive-web-design-projects/02-build-a-survey-form.md)
+- [ ] [Build a Product Landing Page](./01-responsive-web-design/08-responsive-web-design-projects/03-build-a-product-landing-page.md)
+- [ ] [Build a Technical Documentation Page](./01-responsive-web-design/08-responsive-web-design-projects/04-build-a-technical-documentation-page.md)
+- [ ] [Build a Personal Portfolio Webpage](./01-responsive-web-design/08-responsive-web-design-projects/05-build-a-personal-portfolio-webpage.md)
+
+
+## [JavaScript Algorithms and Data Structures Projects](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/)
 
 - [ ] [Palindrome Checker]()
 - [ ] [Roman Numeral Converter]()
@@ -19,7 +29,7 @@ You can earn each certification by completing its 5 final projects.
 - [ ] [Cash Register]()
 
 
-## [Front End Libraries Certification Projects](https://learn.freecodecamp.org/front-end-libraries/front-end-libraries-projects)
+## [Front End Libraries Projects](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/)
 
 - [ ] [Build a Random Quote Machine]()
 - [ ] [Build a Markdown Previewer]()
@@ -28,7 +38,7 @@ You can earn each certification by completing its 5 final projects.
 - [ ] [Build a Pomodoro Clock]()
 
 
-## [Data Visualization Certification Projects](https://learn.freecodecamp.org/data-visualization/data-visualization-projects)
+## [Data Visualization Projects](https://www.freecodecamp.org/learn/data-visualization/data-visualization-projects/)
 
 - [ ] [Visualize Data with a Bar Chart]()
 - [ ] [Visualize Data with a Scatterplot Graph]()
@@ -37,7 +47,7 @@ You can earn each certification by completing its 5 final projects.
 - [ ] [Visualize Data with a Treemap Diagram]()
 
 
-## [Introduction to the APIs and Microservices Certification Projects](https://learn.freecodecamp.org/apis-and-microservices/apis-and-microservices-projects)
+## [APIs and Microservices Projects](https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/)
 
 - [ ] [Timestamp Microservice]()
 - [ ] [Request Header Parser Microservice]()
@@ -46,7 +56,7 @@ You can earn each certification by completing its 5 final projects.
 - [ ] [File Metadata Microservice]()
 
 
-## [Information Security and Quality Assurance Certification Projects](https://learn.freecodecamp.org/information-security-and-quality-assurance/information-security-and-quality-assurance-projects)
+## [Information Security and Quality Assurance Projects](https://www.freecodecamp.org/learn/information-security-and-quality-assurance/information-security-and-quality-assurance-projects/)
 
 - [ ] [Metric-Imperial Converter]()
 - [ ] [Issue Tracker]()
@@ -55,7 +65,70 @@ You can earn each certification by completing its 5 final projects.
 - [ ] [Anonymous Message Board]()
 
 
-## [Coding Interview Prep - Take Home Projects](https://learn.freecodecamp.org/coding-interview-prep/take-home-projects)
+## Coding Interview Prep 
+
+### [Algorithms](https://www.freecodecamp.org/learn/coding-interview-prep/algorithms/)
+
+- [ ] [Find the Symmetric Difference]()
+- [ ] [Inventory Update]()
+- [ ] [No Repeats Please]()
+- [ ] [Pairwise]()
+- [ ] [Implement Bubble Sort]()
+- [ ] [Implement Selection Sort]()
+- [ ] [Implement Insertion Sort]()
+- [ ] [Implement Quick Sort]()
+- [ ] [Implement Merge Sort]()
+
+### [Data Structures](https://www.freecodecamp.org/learn/coding-interview-prep/data-structures/)
+
+- [ ] [Typed Arrays]()
+- [ ] [Learn how a Stack Works]()
+- [ ] [Create a Stack Class]()
+- [ ] [Create a Queue Class]()
+- [ ] [Create a Priority Queue Class]()
+- [ ] [Create a Circular Queue]()
+- [ ] [Create a Set Class]()
+- [ ] [Perform a Union on Two Sets]()
+- [ ] [Perform an Intersection on Two Sets of Data]()
+- [ ] [Perform a Difference on Two Sets of Data]()
+- [ ] [Perform a Subset Check on Two Sets of Data]()
+- [ ] [Create and Add to Sets in ES6]()
+- [ ] [Remove items from a set in ES6]()
+- [ ] [Use .has and .size on an ES6 Set]()
+- [ ] [Use Spread and Notes for ES5 Set() Integration]()
+- [ ] [Create a Map Data Structure]()
+- [ ] [Create an ES6 JavaScript Map]()
+- [ ] [Create a Hash Table]()
+- [ ] [Work with Nodes in a Linked List]()
+- [ ] [Create a Linked List Class]()
+- [ ] [Remove Elements from a Linked List]()
+- [ ] [Search within a Linked List]()
+- [ ] [Remove Elements from a Linked List by Index]()
+- [ ] [Add Elements at a Specific Index in a Linked List]()
+- [ ] [Create a Doubly Linked List]()
+- [ ] [Reverse a Doubly Linked List]()
+- [ ] [Add a New Element to a Binary Search Tree]()
+- [ ] [Find the Minimum and Maximum Value in a Binary Search Tree]()
+- [ ] [Check if an Element is Present in a Binary Search Tree]()
+- [ ] [Check if Tree is Binary Search Tree]()
+- [ ] [Find the Minimum and Maximum Height of a Binary Search Tree]()
+- [ ] [Use Depth First Search in a Binary Search Tree]()
+- [ ] [Use Breadth First Search in a Binary Search Tree]()
+- [ ] [Delete a Leaf Node in a Binary Search Tree]()
+- [ ] [Delete a Node with One Child in a Binary Search Tree]()
+- [ ] [Delete a Node with Two Children in a Binary Search Tree]()
+- [ ] [Invert a Binary Tree]()
+- [ ] [Create a Trie Search Tree]()
+- [ ] [Insert an Element into a Max Heap]()
+- [ ] [Remove an Element from a Max Heap]()
+- [ ] [Implement Heap Sort with a Min Heap]()
+- [ ] [Adjacency List]()
+- [ ] [Adjacency Matrix]()
+- [ ] [Incidence Matrix]()
+- [ ] [Breadth-First Search]()
+- [ ] [Depth-First Search]()
+
+### [Take Home Projects](https://www.freecodecamp.org/learn/coding-interview-prep/take-home-projects/)
 
 - [ ] [Show the Local Weather]()
 - [ ] [Build a Wikipedia Viewer]()
@@ -77,3 +150,7 @@ You can earn each certification by completing its 5 final projects.
 - [ ] [Build a Voting App]()
 - [ ] [Build a Pong Game]()
 - [ ] [Build a Light-Bright App]()
+
+---
+
+Credits to [freeCodeCamp](https://www.freecodecamp.org/)
