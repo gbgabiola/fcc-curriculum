@@ -20,7 +20,7 @@ In this section we will learn to solve basic algorithm problems using JavaScript
 - [x] [Boo who](10-boo-who.js)
 - [x] [Title Case a Sentence](11-title-case-a-sentence.js)
 - [x] [Slice and Splice](12-slice-and-splice.js)
-- [ ] [Falsy Bouncer](13-falsy-bouncer.js)
+- [x] [Falsy Bouncer](13-falsy-bouncer.js)
 - [ ] [Where do I Belong](14-where-do-i-belong.js)
 - [ ] [Mutations](15-mutations.js)
 - [ ] [Chunky Monkey](16-chunky-monkey.js)

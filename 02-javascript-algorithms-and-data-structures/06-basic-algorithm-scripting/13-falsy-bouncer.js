@@ -1,15 +1,31 @@
-/*
-  Challenge: Remove all falsy values from an array.
+/**
+ * Challenge: Remove all falsy values from an array.
+ *
+ * Falsy values in JavaScript are false, null, 0, '', undefined, and NaN.
+ *
+ * Hint: Try converting each value to a Boolean.
+ */
 
-  Falsy values in JavaScript are false, null, 0, "", undefined, and NaN.
-  
-  Hint: Try converting each value to a Boolean.
-*/
-
+// Solution 1: Using`for` loop
 function bouncer(arr) {
-  return arr.filter(Boolean); // Using filter & Boolean
+  // Step 1: Create an empty array
+  let newArr = [];
 
-  // return arr.filter(value => value); // or arr => Boolean(arr)
+  // Step 2: Use for loop iterate over the given array
+  for (let i = 0; i < arr.length; i++) // or (let item of arr)
+  // Step 3: Check if current element truthy or falsy, if element is truthy push it to the new array
+  if (arr[i]) newArr.push(arr[i]) // or (item) newArr.push(item)
+  // Step 4: Return the new array
+  return newArr;
 }
 
-console.log(bouncer([7, "ate", "", false, 9])); // [7, "ate", 9]
+// Solution 2: Using`filter()` method
+function bouncer(arr) {
+  // filter method expects a function that returns a Boolean value which takes a single argument and returns true/false
+  return arr.filter(Boolean);
+
+  // return arr.filter(arr => Boolean(arr));
+  // return arr.filter(item => item);
+}
+
+bouncer([7, 'ate', '', false, 9]); // [7, 'ate', 9]
