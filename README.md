@@ -14,7 +14,7 @@ You can earn each certification by completing its 5 final projects.
 ## [Responsive Web Design Projects](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/)
 
 - [x] [Build a Tribute Page](./01-responsive-web-design/08-responsive-web-design-projects/01-build-a-tribute-page.md)
-- [ ] [Build a Survey Form](./01-responsive-web-design/08-responsive-web-design-projects/02-build-a-survey-form.md)
+- [x] [Build a Survey Form](./01-responsive-web-design/08-responsive-web-design-projects/02-build-a-survey-form.md)
 - [ ] [Build a Product Landing Page](./01-responsive-web-design/08-responsive-web-design-projects/03-build-a-product-landing-page.md)
 - [ ] [Build a Technical Documentation Page](./01-responsive-web-design/08-responsive-web-design-projects/04-build-a-technical-documentation-page.md)
 - [ ] [Build a Personal Portfolio Webpage](./01-responsive-web-design/08-responsive-web-design-projects/05-build-a-personal-portfolio-webpage.md)
