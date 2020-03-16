@@ -1,4 +1,4 @@
-# [Basic Algorithm Scripting](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-algorithm-scripting)
+# [Basic Algorithm Scripting](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/)
 
 A computer algorithm is a sequence of steps that is followed to achieve a particular outcome. To write an algorithm, you must first understand a problem, and then solve it with coding.
 
@@ -23,8 +23,8 @@ In this section we will learn to solve basic algorithm problems using JavaScript
 - [x] [Falsy Bouncer](13-falsy-bouncer.js)
 - [x] [Where do I Belong](14-where-do-i-belong.js)
 - [x] [Mutations](15-mutations.js)
-- [ ] [Chunky Monkey](16-chunky-monkey.js)
+- [x] [Chunky Monkey](16-chunky-monkey.js)
 
 ---
 
-Credits to [FreeCodeCamp](https://www.freecodecamp.org/)
+Credits to [freeCodeCamp](https://www.freecodecamp.org/)
