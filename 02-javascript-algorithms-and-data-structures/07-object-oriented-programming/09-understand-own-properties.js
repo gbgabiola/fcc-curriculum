@@ -1,19 +1,19 @@
-/*
-  Challenge: Add the own properties of canary to the array ownProps.
-*/
+/**
+ * Challenge: Add the own properties of canary to the array ownProps.
+ */
 
 function Bird(name) {
   this.name = name;
   this.numLegs = 2;
 }
 
-let canary = new Bird("Tweety");
+let canary = new Bird('Tweety');
 let ownProps = [];
 
-for (let property in canary) {
-  if (canary.hasOwnProperty(property)) {
-    ownProps.push(property);
+for (let prop in canary) {
+  if (canary.hasOwnProperty(prop)) {
+    ownProps.push(prop);
   }
 }
 
-console.log(ownProps); // name,numLegs
+ownProps; // ['name', 'numLegs']
