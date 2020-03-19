@@ -1,7 +1,7 @@
-/*
-  Challenge: Add all of the own properties of beagle to the array ownProps.
-  Add all of the prototype properties of Dog to the array prototypeProps.
-*/
+/**
+ * Challenge: Add all of the own properties of beagle to the array ownProps.
+ * Add all of the prototype properties of Dog to the array prototypeProps.
+ */
 
 function Dog(name) {
   this.name = name;
@@ -9,18 +9,22 @@ function Dog(name) {
 
 Dog.prototype.numLegs = 4;
 
-let beagle = new Dog("Snoopy");
+let beagle = new Dog('Snoopy');
 
 let ownProps = [];
 let prototypeProps = [];
 
-for (let property in beagle) {
-  if (beagle.hasOwnProperty(property)) {
-    ownProps.push(property);
+// Only change code below this line
+for (let prop in beagle) {
+  if (beagle.hasOwnProperty(prop)) {
+    ownProps.push(prop);
   } else {
-    prototypeProps.push(property);
+    prototypeProps.push(prop)
   }
 
-  // One line: Using ternary
-  beagle.hasOwnProperty(property) ? ownProps.push(property) : prototypeProps.push(property);
+  // One liner: Using ternary operator
+  // beagle.hasOwnProperty(prop) ? ownProps.push(prop) : prototypeProps.push(prop);
 }
+
+ownProps; // ['name']
+prototypeProps; // ['numLegs']

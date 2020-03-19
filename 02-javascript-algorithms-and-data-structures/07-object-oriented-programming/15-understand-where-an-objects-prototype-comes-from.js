@@ -1,10 +1,10 @@
-/*
-  Challenge: Use isPrototypeOf to check the prototype of beagle.
-*/
+/**
+ * Challenge: Use isPrototypeOf to check the prototype of beagle.
+ */
 
 function Dog(name) {
   this.name = name;
 }
 
-let beagle = new Dog("Snoopy");
-Dog.prototype.isPrototypeOf(beagle); // true
+let beagle = new Dog('Snoopy');
+Dog.prototype.isPrototypeOf(beagle) // true
