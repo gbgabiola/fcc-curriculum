@@ -1,6 +1,6 @@
-/*
-  Challenge: Modify the code so that instances of Dog inherit from Animal.
-*/
+/**
+ * Challenge: Modify the code so that instances of Dog inherit from Animal.
+ */
 
 function Animal() { }
 
@@ -12,8 +12,5 @@ Animal.prototype = {
 };
 
 function Dog() { }
-Dog.prototype = Object.create(Animal.prototype);
-
-
+Dog.prototype = Object.create(Animal.prototype)
 let beagle = new Dog();
-beagle.eat();  // "nom nom nom"
