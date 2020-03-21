@@ -28,12 +28,12 @@ Your choice of programming approach depends on a few factors. These include the 
 - [x] [Inherit Behaviors from a Supertype](18-inherit-behaviors-from-a-supertype.js)
 - [x] [Set the Child's Prototype to an Instance of the Parent](19-set-the-childs-prototype-to-an-instance-of-the-parent.js)
 - [x] [Reset an Inherited Constructor Property](20-reset-an-inherited-constructor-property.js)
-- [ ] [Add Methods After Inheritance](21-add-methods-after-inheritance.js)
-- [ ] [Override Inherited Methods](22-override-inherited-methods.js)
-- [ ] [Use a Mixin to Add Common Behavior Between Unrelated Objects](23-use-a-mixin-to-add-common-behavior-between-unrelated-objects.js)
-- [ ] [Use Closure to Protect Properties Within an Object from Being Modified Externally](24-use-closure-to-protect-properties-within-an-object-from-being-modified-externally.js)
-- [ ] [Understand the Immediately Invoked Function Expression (IIFE)](25-understand-the-immediately-invoked-function-expression-iife.js)
-- [ ] [Use an IIFE to Create a Module](26-use-an-iife-to-create-a-module.js)
+- [x] [Add Methods After Inheritance](21-add-methods-after-inheritance.js)
+- [x] [Override Inherited Methods](22-override-inherited-methods.js)
+- [x] [Use a Mixin to Add Common Behavior Between Unrelated Objects](23-use-a-mixin-to-add-common-behavior-between-unrelated-objects.js)
+- [x] [Use Closure to Protect Properties Within an Object from Being Modified Externally](24-use-closure-to-protect-properties-within-an-object-from-being-modified-externally.js)
+- [x] [Understand the Immediately Invoked Function Expression (IIFE)](25-understand-the-immediately-invoked-function-expression-iife.js)
+- [x] [Use an IIFE to Create a Module](26-use-an-iife-to-create-a-module.js)
 
 ---
 
