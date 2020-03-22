@@ -1,32 +1,24 @@
-/*
-  Challenge: In the code editor, the prepareTeaand getTeafunctions are already defined for you.
-  Call the getTeafunction to get 40 cups of tea for the team, and store them in the tea4TeamFCCvariable.
-*/
-
 /**
- * A long process to prepare tea.
- * @return {string} A cup of tea.
- **/
+ * Challenge: In the code editor, the prepareTea and getTea functions are already defined for you.
+ * Call the getTea function to get 40 cups of tea for the team, and store them in the tea4TeamFCC variable.
+ */
+
+// Function that returns a string representing a cup of green tea
 const prepareTea = () => 'greenTea';
 
-/**
- * Get given number of cups of tea.
- * @param {number} numOfCups Number of required cups of tea.
- * @return {Array<string>} Given amount of tea cups.
- **/
-const getTea = numOfCups => {
+/*
+Given a function (representing the tea type) and number of cups needed, the
+following function returns an array of strings (each representing a cup of
+a specific type of tea).
+*/
+const getTea = (numOfCups) => {
   const teaCups = [];
 
-  for (let cups = 1; cups <= numOfCups; cups += 1) {
+  for(let cups = 1; cups <= numOfCups; cups += 1) {
     const teaCup = prepareTea();
     teaCups.push(teaCup);
   }
-
   return teaCups;
 };
 
 const tea4TeamFCC = getTea(40);
-
-console.log(tea4TeamFCC);
-
-// (40) ['greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea', 'greenTea']

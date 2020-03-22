@@ -1,10 +1,10 @@
-/*
-  Challenge: Let's update the incrementerfunction to clearly declare its dependencies.
+/**
+ * Challenge: Let's update the incrementer function to clearly declare its dependencies.
+ *
+ * Write the incrementer function so it takes an argument, and then increases the value by one.
+ */
 
-  Write the incrementerfunction so it takes an argument, and then increases the value by one.
-*/
-
-// the global variable
+// The global variable
 var fixedValue = 4;
 
 function incrementer(value) {

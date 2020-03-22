@@ -1,8 +1,8 @@
-/*
-  Challenge: Fill in the code for the function incrementerso it returns the value of the global variable fixedValueincreased by one.
-*/
+/**
+ * Challenge: Fill in the code for the function incrementer so it returns the value of the global variable fixedValue increased by one.
+ */
 
-// the global variable
+// The global variable
 var fixedValue = 4;
 
 function incrementer() {
@@ -10,4 +10,4 @@ function incrementer() {
 }
 
 var newValue = incrementer(); // 5
-console.log(fixedValue); // 4
+fixedValue; // 4
