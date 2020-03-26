@@ -1,11 +1,12 @@
-/*
-  Challenge: The variable watchList holds an array of objects with information on several movies.
-  Use a combination of filter and map to return a new array of objects with only title and rating keys, but where imdbRating is greater than or equal to 8.0.
-  Note that the rating values are saved as strings in the object and you may want to convert them into numbers to perform mathematical operations on them.
-*/
+/**
+ * Challenge: The variable watchList holds an array of objects with information on several movies.
+ * Use a combination of filter and map on watchList to assign a new array of objects with only title and rating keys.
+ * The new array should only include objects where imdbRating is greater than or equal to 8.0.
+ * Note that the rating values are saved as strings in the object and you may need to convert them into numbers to perform mathematical operations on them.
+ */
 
-// the global variable
-var watchList = [
+// The global variable
+const watchList = [
   {
     Title: 'Inception',
     Year: '2010',
@@ -28,7 +29,7 @@ var watchList = [
     imdbVotes: '1,446,708',
     imdbID: 'tt1375666',
     Type: 'movie',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: 'Interstellar',
@@ -52,7 +53,7 @@ var watchList = [
     imdbVotes: '910,366',
     imdbID: 'tt0816692',
     Type: 'movie',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: 'The Dark Knight',
@@ -77,7 +78,7 @@ var watchList = [
     imdbVotes: '1,652,832',
     imdbID: 'tt0468569',
     Type: 'movie',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: 'Batman Begins',
@@ -102,7 +103,7 @@ var watchList = [
     imdbVotes: '972,584',
     imdbID: 'tt0372784',
     Type: 'movie',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: 'Avatar',
@@ -126,24 +127,25 @@ var watchList = [
     imdbVotes: '876,575',
     imdbID: 'tt0499549',
     Type: 'movie',
-    Response: 'True'
-  }
+    Response: 'True',
+  },
 ];
 
 // Solution 1: Using map, then filter
-let filteredList = watchList
+const filteredList = watchList
   .map(item => ({
     title: item.Title,
-    rating: item.imdbRating
+    rating: item.imdbRating,
   }))
   .filter(item => item.rating >= 8.0);
 
-// Solution 2: Using filter, then map
-// let filteredList = watchList
-//   .filter(item => {
-//     return Number(item.imdbRating) >= 8.0;
-//   })
-//   .map(item => ({ title: item.Title, rating: item.imdbRating }));
 
-console.log(filteredList);
-// [{'title':'Inception','rating':'8.8'},{'title':'Interstellar','rating':'8.6'},{'title':'The Dark Knight','rating':'9.0'},{'title':'Batman Begins','rating':'8.3'}]
+// Solution 2: Using filter, then map
+const filteredList = watchList
+  .filter(item => item.imdbRating >= 8.0)
+  .map(item => ({
+    title: item.Title,
+    rating: item.imdbRating,
+  }));
+
+console.log(filteredList); // [{ title: 'Inception', rating: '8.8' }, { title: 'Interstellar', rating: '8.6' }, { title: 'The Dark Knight', rating: '9.0' }, { title: 'Batman Begins', rating: '8.3' }]
