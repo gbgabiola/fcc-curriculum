@@ -1,13 +1,13 @@
-/*
-  Challenge: The variable watchList holds an array of objects with information on several movies.
-  Use reduce to find the average IMDB rating of the movies directed by Christopher Nolan.
-  Recall from prior challenges how to filter data and map over it to pull what you need.
-  You may need to create other variables, but save the final average into the variable averageRating.
-  Note that the rating values are saved as strings in the object and need to be converted into numbers before they are used in any mathematical operations.
-*/
+/**
+ * Challenge: The variable watchList holds an array of objects with information on several movies.
+ * Use reduce to find the average IMDB rating of the movies directed by Christopher Nolan.
+ * Recall from prior challenges how to filter data and map over it to pull what you need.
+ * You may need to create other variables, and return the average rating from getRating function.
+ * Note that the rating values are saved as strings in the object and need to be converted into numbers before they are used in any mathematical operations.
+ */
 
-// the global variable
-var watchList = [
+// The global variable
+const watchList = [
   {
     Title: 'Inception',
     Year: '2010',
@@ -30,7 +30,7 @@ var watchList = [
     imdbVotes: '1,446,708',
     imdbID: 'tt1375666',
     Type: 'movie',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: 'Interstellar',
@@ -54,7 +54,7 @@ var watchList = [
     imdbVotes: '910,366',
     imdbID: 'tt0816692',
     Type: 'movie',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: 'The Dark Knight',
@@ -79,7 +79,7 @@ var watchList = [
     imdbVotes: '1,652,832',
     imdbID: 'tt0468569',
     Type: 'movie',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: 'Batman Begins',
@@ -104,7 +104,7 @@ var watchList = [
     imdbVotes: '972,584',
     imdbID: 'tt0372784',
     Type: 'movie',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: 'Avatar',
@@ -128,15 +128,19 @@ var watchList = [
     imdbVotes: '876,575',
     imdbID: 'tt0499549',
     Type: 'movie',
-    Response: 'True'
-  }
+    Response: 'True',
+  },
 ];
 
-let averageRating =
-  watchList
-    .filter(item => item.Director === 'Christopher Nolan')
-    .map(item => Number(item.imdbRating))
-    .reduce((a, b) => a + b) /
-  watchList.filter(item => item.Director === 'Christopher Nolan').length;
+function getRating(watchList) {
+  const filteredMovie = watchList.filter(
+    movie => movie.Director === 'Christopher Nolan'
+  );
+  const averageRating =
+    filteredMovie
+      .map(movie => Number(movie.imdbRating))
+      .reduce((a, b) => a + b) / filteredMovie.length;
 
-console.log(averageRating); // 8.675
+  return averageRating;
+}
+console.log(getRating(watchList)); // 8.675
