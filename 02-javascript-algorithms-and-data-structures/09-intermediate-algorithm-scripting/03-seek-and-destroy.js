@@ -5,14 +5,12 @@
  * Remove all elements from the initial array that are of the same value as these arguments.
  *
  * Note: You have to use the arguments object.
- **/
+ */
 
+// Solution 1: Using Boolean, arguments, slice() and filter() method
 function destroyer(arr) {
   const args = Array.prototype.slice.call(arguments);
 
-  /**
-   * Using fiter, Boolean & arguments
-   **/
   for (let i = 0; i < arr.length; i++) {
     for (let j = 0; j < args.length; j++) {
       if (arr[i] === args[j]) {
@@ -20,17 +18,16 @@ function destroyer(arr) {
       }
     }
   }
-  return arr.filter(Boolean);
-
-  /**
-   * Intermediate: Using slice, includes, arguments & arrow
-   */
-  return arr.filter(val => !args.includes(val));
+  return arr.filter(Boolean)
 }
 
-/**
- * Advanced: Using filter, inclides arrow, & spread operator
- **/
-const destroyer = (arr, ...args) => arr.filter(val => !args.includes(val));
+// Solution 2: Using arguments, slice(), filter() and includes() methods
+function destroyer(arr) {
+  const args = Array.prototype.slice.call(arguments);
+  return arr.filter(num => !args.includes(num));
+}
+
+// Solution 3: Using spread operator, filter() and includes() method
+const destroyer = (arr, ...args) => arr.filter(num => !args.includes(num));
 
 destroyer([1, 2, 3, 1, 2, 3], 2, 3); // [1, 1]
